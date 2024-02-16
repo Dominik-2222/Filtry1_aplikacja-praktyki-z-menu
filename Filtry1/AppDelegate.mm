@@ -36,7 +36,7 @@ bool gray_scale_switch=0,native_switch=0;
 //obsluga switchow
 - (IBAction)grayScaleSwitch_Changed:(id)sender{
     gray_scale_switch=!gray_scale_switch;
-    NSLog(@"zmiana_G: %d",gray_scale_switch);
+    NSLog(@"zmiana_G: %d",gray_scale_switch);	
 }
 - (IBAction)Native_Changed:(id)sender{
     native_switch=!native_switch;
