@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058644BE2B7FF2A100F8CCA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 058644BD2B7FF2A100F8CCA7 /* AppDelegate.m */; };
+		058644BE2B7FF2A100F8CCA7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 058644BD2B7FF2A100F8CCA7 /* AppDelegate.mm */; };
 		058644C02B7FF2A300F8CCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058644BF2B7FF2A300F8CCA7 /* Assets.xcassets */; };
 		058644C32B7FF2A300F8CCA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058644C12B7FF2A300F8CCA7 /* MainMenu.xib */; };
 		058644C52B7FF2A300F8CCA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 058644C42B7FF2A300F8CCA7 /* main.m */; };
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		058644B92B7FF2A100F8CCA7 /* Filtry1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filtry1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058644BC2B7FF2A100F8CCA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		058644BD2B7FF2A100F8CCA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		058644BD2B7FF2A100F8CCA7 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		058644BF2B7FF2A300F8CCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058644C22B7FF2A300F8CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		058644C42B7FF2A300F8CCA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				058644BC2B7FF2A100F8CCA7 /* AppDelegate.h */,
-				058644BD2B7FF2A100F8CCA7 /* AppDelegate.m */,
+				058644BD2B7FF2A100F8CCA7 /* AppDelegate.mm */,
 				058644BF2B7FF2A300F8CCA7 /* Assets.xcassets */,
 				058644C12B7FF2A300F8CCA7 /* MainMenu.xib */,
 				058644C42B7FF2A300F8CCA7 /* main.m */,
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058644C52B7FF2A300F8CCA7 /* main.m in Sources */,
-				058644BE2B7FF2A100F8CCA7 /* AppDelegate.m in Sources */,
+				058644BE2B7FF2A100F8CCA7 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
