@@ -76,13 +76,14 @@ bool gray_scale_switch=0,native_switch=0;
     NSLog(@"Czas: %f", executionTime);
     NSImage *grayScaleImage = [[NSImage alloc] initWithSize:[bitmapRep size]];
       [grayScaleImage addRepresentation:bitmapRep];
-    
-   [[self.window contentView]addSubview:imageView];
+    [self OpenImageView:grayScaleImage];
+}
+-(void)OpenImageView:(NSImage * )image{
+    [[self.window contentView]addSubview:imageView];
     imageView = [[NSImageView alloc]initWithFrame:[self.window.contentView bounds]];
     [imageView setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
     [imageView setImage:image];
 }
-
 //obsluga switchow
 - (IBAction)grayScaleSwitch_Changed:(id)sender{
     
