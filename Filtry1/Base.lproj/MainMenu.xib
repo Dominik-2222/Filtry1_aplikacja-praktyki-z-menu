@@ -1060,11 +1060,11 @@
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <customView id="FzO-ns-mk0">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="348" height="34"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="349" height="34"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-a0-iYw">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="348" height="32"/>
+                                                                            <rect key="frame" x="0.0" y="10" width="348" height="32"/>
                                                                             <buttonCell key="cell" type="push" title="Wygeneruj" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wbM-kz-RkN">
                                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                                 <font key="font" metaFont="system"/>
@@ -1081,11 +1081,11 @@
                                                                     </constraints>
                                                                 </customView>
                                                                 <customView id="qDQ-kz-7sR">
-                                                                    <rect key="frame" x="358" y="0.0" width="343" height="34"/>
+                                                                    <rect key="frame" x="359" y="0.0" width="342" height="34"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="x7i-BI-81T">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
+                                                                            <rect key="frame" x="0.0" y="10" width="343" height="32"/>
                                                                             <buttonCell key="cell" type="push" title="Zapisz do pilku .tiff" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ged-d9-IWR">
                                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                                 <font key="font" metaFont="system"/>
@@ -1115,9 +1115,9 @@
                                                         <imageView wantsLayer="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FHS-M7-ria">
                                                             <rect key="frame" x="0.0" y="0.0" width="701" height="400"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                            <imageCell key="cell" selectable="YES" editable="YES" alignment="left" imageScaling="proportionallyDown" image="NSImageView" id="tfS-wP-5I9" customClass="ImageView">
+                                                            <imageCell key="cell" selectable="YES" editable="YES" alignment="left" imageScaling="proportionallyDown" id="tfS-wP-5I9">
                                                                 <connections>
-                                                                    <outlet property="representedObject" destination="FHS-M7-ria" id="2OV-ed-3TK"/>
+                                                                    <outlet property="representedObject" destination="Voe-Tx-rLC" id="Zgn-6e-SYu"/>
                                                                 </connections>
                                                             </imageCell>
                                                         </imageView>
@@ -1145,7 +1145,4 @@
             <point key="canvasLocation" x="-145.5" y="519"/>
         </window>
     </objects>
-    <resources>
-        <image name="NSImageView" width="128" height="128"/>
-    </resources>
 </document>
