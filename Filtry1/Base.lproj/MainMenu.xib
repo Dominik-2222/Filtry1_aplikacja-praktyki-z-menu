@@ -681,7 +681,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="1876" y="176" width="721" height="490"/>
-            <rect key="screenRect" x="1680" y="-30" width="1920" height="1080"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1865"/>
             <view key="contentView" id="jKH-DJ-pUC">
                 <rect key="frame" x="0.0" y="0.0" width="721" height="490"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1064,7 +1064,7 @@
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-a0-iYw">
-                                                                            <rect key="frame" x="0.0" y="10" width="348" height="32"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="349" height="32"/>
                                                                             <buttonCell key="cell" type="push" title="Wygeneruj" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wbM-kz-RkN">
                                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                                 <font key="font" metaFont="system"/>
@@ -1085,7 +1085,7 @@
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="x7i-BI-81T">
-                                                                            <rect key="frame" x="0.0" y="10" width="343" height="32"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="342" height="32"/>
                                                                             <buttonCell key="cell" type="push" title="Zapisz do pilku .tiff" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ged-d9-IWR">
                                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                                 <font key="font" metaFont="system"/>
